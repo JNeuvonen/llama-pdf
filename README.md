@@ -12,14 +12,15 @@ Extract information from or summarize PDF files using llama-v2 running locally o
 
 ## Mac/Linux
 
-1. `chmod +x init_unix.sh`
-2. `./init_unix.sh`
-3. `chmod +x cli.sh`
-4. `./cli.sh`
+1. `chmod +x server_unix.sh`
+2. `./server_unix.sh`
+3. `chmod +x cli_unix.sh`
+4. `./cli_unix.sh`
 
 ## Windows
 
-`init_win.bat`
+`server_win.bat`
+`cli_win.bat`
 
 I have not yet tested windows start script, so I am not completely certain it works.
 
