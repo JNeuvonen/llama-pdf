@@ -10,7 +10,7 @@ Extract information from or summarize PDF files using llama-v2 running locally o
 
 # Run
 
-The setup script downloads llama-v2 GGML from huggingface with 13b parameters using 4-bit quantization. That is around 7 GB of data. The setup script will take a while to complete.
+The setup script downloads llama-v2 GGML model from huggingface with 13b parameters using 4-bit quantization. That is around 7 GB of data. Depending on your internet speed the setup can take a long time to complete.
 
 ## Mac/Linux
 
