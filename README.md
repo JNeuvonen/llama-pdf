@@ -14,7 +14,7 @@ The setup script downloads llama-v2 GGML model from huggingface with 13b paramet
 
 ## Mac/Linux
 
-1. `chmod +x unix_setup && ./unix_setup.sh`
+1. `chmod +x unix_setup.sh && ./unix_setup.sh`
 
 ## Windows
 
