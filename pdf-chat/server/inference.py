@@ -1,11 +1,10 @@
-import os
 from flask import Flask, request, jsonify, Response
 from llama_cpp import Llama
 
 app = Flask(__name__)
 
 llm = Llama(
-    model_path=os.environ.get("MODEL_PATH"),
+    model_path="llama-2-13b-chat.ggmlv3.q4_0.bin",
     n_gpu_layers=20000,
     verbose=False,
     n_ctx=2000

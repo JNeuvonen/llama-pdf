@@ -19,7 +19,7 @@ fn generate_prompt_template(pdf_text: String, prompt: String) -> String {
         _ => caps[0].to_string(),
     });
     let formatted_prompt = format!(
-        "This is text of a PDF: '{}'. \\n The PDF ended now. Answer to: {}",
+        "This is text of a PDF: '{}'. \\n [ PDF_END ] {}",
         formatted_pdf_text, prompt
     );
 
