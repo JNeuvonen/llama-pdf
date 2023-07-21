@@ -2,7 +2,7 @@
 set MODEL=llama-2-13b-chat.ggmlv3.q4_0.bin
 set MODEL_PATH="./%MODEL%"
 
-cd pdf_chat
+cd pdf-chat
 cd server
 
 wsl -- python3 -m venv venv
