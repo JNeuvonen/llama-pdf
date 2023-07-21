@@ -24,11 +24,6 @@ Extract information from or summarize PDF files using llama-v2 running locally o
 
 I have not yet tested windows start script, so I am not completely certain it works.
 
-# Features
-
-- llama v2 running locally on python web-server
-- parse text out of PDF
-- send requests to py web-server and stream back the results
 
 # TODO
 
