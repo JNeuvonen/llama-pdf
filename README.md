@@ -10,17 +10,15 @@ Extract information from or summarize PDF files using llama-v2 running locally o
 
 # Run
 
+The setup script downloads llama-v2 GGML from huggingface with 13b parameters using 4-bit quantization. That is around 7 GB of data. The setup script will take a while to complete.
+
 ## Mac/Linux
 
-1. `chmod +x server_unix.sh`
-2. `./server_unix.sh`
-3. `chmod +x cli_unix.sh`
-4. `./cli_unix.sh`
+1. `chmod +x unix_setup && ./unix_setup.sh`
 
 ## Windows
 
-1. `server_win.bat`
-2. `cli_win.bat`
+1. `win_setup.bat`
 
 I have not yet tested windows start script, so I am not completely certain it works.
 
