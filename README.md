@@ -1,6 +1,6 @@
 # What is llama-pdf?
 
-Extract information from or summarize PDF files using llama-v2 running locally on your own machine.
+Extract information from or summarize PDF files using llama-v2 running locally on your own machine. Demo video is coming!
 
 # Requirements
 
