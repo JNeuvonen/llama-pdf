@@ -27,4 +27,5 @@ I have not yet tested windows start script, so I am not completely certain it wo
 
 - Make streaming respones more pretty. Currently, tokens are printed as they arrive, which does not make for a very pleasant reading experience.
 - Add support for follow-up questions. Currently, context is refreshed on every prompt.
+- Add support for prompting the document using voice via whisper.cpp speech-to-text. Extra: Make the model respond using voice with text-to-speech.
   
