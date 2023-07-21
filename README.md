@@ -19,8 +19,8 @@ Extract information from or summarize PDF files using llama-v2 running locally o
 
 ## Windows
 
-`server_win.bat`
-`cli_win.bat`
+1. `server_win.bat`
+2. `cli_win.bat`
 
 I have not yet tested windows start script, so I am not completely certain it works.
 
