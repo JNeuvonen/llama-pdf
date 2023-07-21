@@ -1,7 +1,7 @@
 export MODEL=llama-2-13b-chat.ggmlv3.q4_0.bin
 export MODEL_PATH="./${MODEL}"
 
-cd pdf-chat
+cd llama-pdf
 cd server
 
 python -m venv venv
