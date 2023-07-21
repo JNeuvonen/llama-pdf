@@ -12,8 +12,8 @@ Extract information from or summarize PDF files using llama-v2 running locally o
 
 ## Mac/Linux
 
-`chmod +x init_unix.sh`\n
-`./init_unix.sh`
+1. `chmod +x init_unix.sh`
+2. `./init_unix.sh`
 
 ## Windows
 
