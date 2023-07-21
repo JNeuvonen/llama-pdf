@@ -1,4 +1,4 @@
-# What is it?
+# What is llama-pdf?
 
 Extract information from or summarize PDF files using llama-v2 running locally on your own machine. A more comprehensive readme.md is coming soon!
 
