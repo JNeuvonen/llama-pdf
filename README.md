@@ -22,6 +22,12 @@ The setup script downloads llama-v2 GGML model from huggingface with 13b paramet
 
 I have not yet tested windows start script, so I am not completely certain it works.
 
+## Troubleshooting
+
+- If setup scripts fail, try removing the line `n_gpu_layers=20000` inside inference.py that initiates the Flask web server. Here is a link to it: https://github.com/JNeuvonen/llama-pdf/blob/master/llama-pdf/server/inference.py#L8
+
+- For some unknown reasons, the Python venv doesn't seem to get GPU acceleration every time.
+
 
 # TODO
 
