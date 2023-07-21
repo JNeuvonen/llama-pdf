@@ -1,8 +1,9 @@
+#!/bin/bash
+
 export MODEL=llama-2-13b-chat.ggmlv3.q4_0.bin
 export MODEL_PATH="./${MODEL}"
 
-cd llama-pdf
-cd server
+cd llama-pdf/server
 
 python -m venv venv
 source venv/bin/activate
@@ -12,7 +13,13 @@ if [ ! -f "$MODEL_PATH" ]; then
     wget "https://huggingface.co/TheBloke/Llama-2-13B-chat-GGML/resolve/main/${MODEL}"
 fi
 
-python3 inference.py
+python3 inference.py &  
 
 cd ..
 cd ..
+
+cd llama-pdf/cli
+cargo run -- --file pdf_chatbot_example.pdf
+
+
+sleep 2
