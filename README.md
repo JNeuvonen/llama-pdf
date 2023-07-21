@@ -12,22 +12,18 @@ Extract information from or summarize PDF files using llama-v2 running locally o
 
 ## Mac/Linux
 
-1. `chmod +x init_unix.sh`
-2. `./init_unix.sh`
-3. `chmod +x cli.sh`
-4. `./cli.sh`
+1. `chmod +x server_unix.sh`
+2. `./server_unix.sh`
+3. `chmod +x cli_unix.sh`
+4. `./cli_unix.sh`
 
 ## Windows
 
-`init_win.bat`
+1. `server_win.bat`
+2. `cli_win.bat`
 
 I have not yet tested windows start script, so I am not completely certain it works.
 
-# Features
-
-- llama v2 running locally on python web-server
-- parse text out of PDF
-- send requests to py web-server and stream back the results
 
 # TODO
 
