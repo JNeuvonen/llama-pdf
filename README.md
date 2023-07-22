@@ -37,4 +37,5 @@ Update: This doesn't work, and I don't have time to debug the Windows build curr
 - Add support for follow-up questions. Currently, context is refreshed on every prompt.
 - Add support for prompting the document using voice via whisper.cpp speech-to-text. Extra: Make the model respond using voice with text-to-speech.
 - GUI instead of CLI
+- Run inference directly in rust, instead of using python web server
   
