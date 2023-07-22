@@ -14,7 +14,7 @@ Extract information from or summarize PDF files using llama-v2 running locally o
 
 # Run
 
-The setup script downloads llama-v2 GGML model from huggingface with 13b parameters using 4-bit quantization. That is around 7 GB of data. Depending on your internet speed the setup can take a long time to complete. I have noticed increased performance in tokens per second if the application CLI and server are run on separate processes. The current quick setup script written in bash runs the server in the background and the CLI in the foreground. The slow performance could be explained by other reasons as well, but running two separate terminal sessions increases tokens/sec a lot.
+The setup script downloads llama-v2 GGML model from huggingface with 13b parameters using 4-bit quantization. That is around 7 GB of data. Depending on your internet speed the setup can take a long time to complete. 
 
 ## Mac/Linux
 
@@ -29,6 +29,8 @@ Update: This doesn't work, and I don't have time to debug the Windows build curr
 ## Troubleshooting
 
 - If setup scripts fail, try removing the line `n_gpu_layers=20000` inside inference.py that initiates the Flask web server. Here is a link to it: https://github.com/JNeuvonen/llama-pdf/blob/master/llama-pdf/server/inference.py#L8
+  
+- I have noticed increased performance in tokens per second if the application CLI and server are run on separate processes. The current quick setup script written in bash runs the server in the background and the CLI in the foreground. The slow performance could be explained by other reasons as well, but running two separate terminal sessions increases tokens/sec a lot.
 
 # TODO
 
