@@ -2,6 +2,10 @@
 
 Extract information from or summarize PDF files using llama-v2 running locally on your own machine. Demo video is coming!
 
+# Demo
+
+![llama-pdf](https://imgur.com/dFF3xfM)
+
 # Requirements
 
 - Enough of RAM/VRAM to run llama-v2 locally
