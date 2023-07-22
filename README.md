@@ -1,6 +1,6 @@
 # What is llama-pdf?
 
-Extract information from or summarize PDF files using llama-v2 running locally on your own machine. Demo video is coming!
+Extract information from or summarize PDF files using llama-v2 running locally on your own machine.
 
 # Demo
 
@@ -35,7 +35,6 @@ I have not yet tested windows start script, so I am not completely certain it wo
 
 # TODO
 
-- Make streaming respones more pretty. Currently, tokens are printed as they arrive, which does not make for a very pleasant reading experience.
 - Add support for follow-up questions. Currently, context is refreshed on every prompt.
 - Add support for prompting the document using voice via whisper.cpp speech-to-text. Extra: Make the model respond using voice with text-to-speech.
 - GUI instead of CLI
