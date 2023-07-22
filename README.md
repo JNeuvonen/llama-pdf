@@ -4,7 +4,7 @@ Extract information from or summarize PDF files using llama-v2 running locally o
 
 # Demo
 
-![llama-pdf](https://imgur.com/dFF3xfM)
+[![llama-pdf](https://imgur.com/dFF3xfM)](https://i.imgur.com/dFF3xfM.gif)
 
 # Requirements
 
