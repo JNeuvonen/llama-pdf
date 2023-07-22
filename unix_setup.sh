@@ -15,6 +15,8 @@ fi
 
 python3 inference.py &  
 
+sleep 4
+
 cd ..
 cd ..
 
@@ -22,4 +24,3 @@ cd llama-pdf/cli
 cargo run -- --file pdf_chatbot_example.pdf
 
 
-sleep 2
