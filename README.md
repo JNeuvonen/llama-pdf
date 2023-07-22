@@ -28,7 +28,7 @@ Update: This doesn't work, and I don't have time to debug the Windows build curr
 
 ## Troubleshooting
 
-- If setup scripts fail, try removing the line `n_gpu_layers=20000` inside inference.py that initiates the Flask web server. Here is a link to it: https://github.com/JNeuvonen/llama-pdf/blob/master/llama-pdf/server/inference.py#L8
+- The setup script can fail because of too little GPU VRAM. In that case, the inference must be run on the CPU (assuming enough RAM is available), and the tokens per second will be reduced by 100 or 1000x. In this case, try removing the line `n_gpu_layers=20000` inside inference.py that initiates the Flask web server. Here is a link to it: https://github.com/JNeuvonen/llama-pdf/blob/master/llama-pdf/server/inference.py#L8
   
 - I have noticed increased performance in tokens per second if the application CLI and server are run on separate processes. The current quick setup script written in bash runs the server in the background and the CLI in the foreground. The slow performance could be explained by other reasons as well, but running two separate terminal sessions increases tokens/sec a lot.
 
