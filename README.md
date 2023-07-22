@@ -24,7 +24,7 @@ The setup script downloads llama-v2 GGML model from huggingface with 13b paramet
 
 1. `win_setup.bat`
 
-I have not yet tested windows start script, so I am not completely certain it works.
+Update: This doesn't work, and I don't have time to debug the Windows build currently.
 
 ## Troubleshooting
 
